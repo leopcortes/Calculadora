@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" lang="pt">
+
+    <head></head>
+        <title> Calculadora | LPC </title>
+        <!-- ========== CSS ========== -->  
+        <link rel="stylesheet" href="./estilo.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="espaco"></div>
+            <div class="resultado"> 
+                <span>0</span> <!-- Resultado -->
+            </div>
+
+            <div class="botoes">
+                <!-- Primeira linha -->
+                <button class="item item1 limpar">AC</button> <!-- Limpar -->
+                <button class="item item1 negativo" value="+/-">+/-</button> <!-- Negativo -->
+                <button class="item item1 porcentagem" value="%">%</button> <!-- Porcentagem -->
+                <button class="item sinal item3" value="/">/</button> <!-- Divisao -->
+                
+                <!-- Segunda linha -->
+                <button class="item numeros" value="7">7</button> <!-- 7 -->
+                <button class="item numeros" value="8">8</button> <!-- 8 -->
+                <button class="item numeros" value="9">9</button> <!-- 9 -->
+                <button class="item sinal item3 vezes" value="x">x</button> <!-- Multiplicacao -->
+                
+                <!-- Terceira linha -->
+                <button class="item numeros" value="4">4</button> <!-- 4 -->
+                <button class="item numeros" value="5">5</button> <!-- 5 -->
+                <button class="item numeros" value="6">6</button> <!-- 6 -->
+                <button class="item sinal item3 menos" value="-">-</button> <!-- Subtracao -->
+                
+                <!-- Quarta linha -->
+                <button class="item numeros" value="1">1</button> <!-- 1 -->
+                <button class="item numeros" value="2">2</button> <!-- 2 -->
+                <button class="item numeros" value="3">3</button> <!-- 3 -->
+                <button class="item sinal item3 mais" value="+">+</button> <!-- Soma -->
+                
+                <!-- Quinta linha -->
+                <button class="item item0 numeros" value="0">0</button> <!-- 0 -->
+                <button class="item virgula">,</button> <!-- Virgula -->
+                <button class="item item3 igual">=</button> <!-- Igual -->
+            </div>
+        </div>
+    
+        <!-- ========== JavaScript ========== -->
+        <script src="./app.js"></script>
+
+    </body>
+
+</html>
